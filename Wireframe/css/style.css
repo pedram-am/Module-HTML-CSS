@@ -1,3 +1,10 @@
+h1,
+h2,
+p,
+a {
+  color: black;
+}
+
 body,
 header,
 main,
@@ -34,10 +41,17 @@ img {
 
 .article-texts {
   text-align: left;
+  width: 30vw;
+  height: 20vh;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding: 5px;
 }
 
 #first-article-texts {
   text-align: left;
+  padding: 5px;
+  background-color: blueviolet;
 }
 
 #subject2-3 {
@@ -55,12 +69,26 @@ img {
   margin-right: 15vw;
 }
 
-.article-texts {
-  width: 30vw;
-  height: 15vh;
-}
-
 #first-img {
   width: 100%;
   height: 30vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer {
+  position: sticky;
+  bottom: 0;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+#first-article {
+  background-color: skyblue;
+}
+
+article {
+  padding: 10px;
 }
