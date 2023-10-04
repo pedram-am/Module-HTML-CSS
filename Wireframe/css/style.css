@@ -5,46 +5,34 @@ a {
   color: black;
 }
 
-body,
 header,
 main,
 footer,
 div,
+article,
 img {
-  margin: 5px;
+  margin: 0;
 }
 
 body {
   border: 3px solid black;
   text-align: center;
+  margin: 20px;
 }
 
-header {
-  border: 3px solid red;
+/* header */
+
+#header {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-main {
-  border: 3px solid blue;
-}
-
-footer {
-  border: 3px solid green;
-}
-
-div {
-  border: 3px solid orangered;
-}
-
-img {
-  border: 3px solid purple;
-}
+/* main */
 
 .article-texts {
   text-align: left;
   width: 30vw;
   height: 20vh;
-  overflow: hidden;
-  word-wrap: break-word;
   padding: 5px;
 }
 
@@ -52,6 +40,11 @@ img {
   text-align: left;
   padding: 5px;
   background-color: blueviolet;
+}
+
+#subject1 {
+  border: 1px solid black;
+  margin: 20px;
 }
 
 #subject2-3 {
@@ -78,17 +71,34 @@ a {
   text-decoration: none;
 }
 
-#footer {
-  position: sticky;
-  bottom: 0;
-  background-color: lightgray;
-  padding: 10px;
-}
-
 #first-article {
   background-color: skyblue;
 }
 
 article {
+  padding: 5px;
+  border-top: 1px solid black;
+}
+
+.flex-subjects {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+button {
+  padding: 7px 15px;
+}
+
+/* footer */
+
+footer {
+  border: 3px solid green;
+}
+
+#footer {
+  position: sticky;
+  bottom: 0;
+  background-color: lightgray;
   padding: 10px;
+  margin-top: 10px;
 }
